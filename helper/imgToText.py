@@ -2,7 +2,7 @@ from pytesseract import pytesseract
 
 class OCR:
     def __init__(self):
-        self.path = './.apt/usr/bin/tesseract'
+        self.path = '/app/.apt/usr/bin/tesseract'
 
     def extract(self, filename):
 
