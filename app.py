@@ -32,7 +32,7 @@ def main():
     updater.start_webhook(listen="0.0.0.0",
                           port=int(os.environ.get("PORT", 8443)),
                           url_path=BOT_TOKEN,
-                          webhook_url="https://textextractorbot.herokuapp.com"+BOT_TOKEN)
+                          webhook_url="https://textextractorbot.herokuapp.com/"+BOT_TOKEN)
 
     updater.idle()
 
