@@ -3,6 +3,7 @@ This application can extract text from images. you just need to provide the imag
 
 ## Libraries used
 pytesseract
+teserract ocr: (https://github.com/UB-Mannheim/tesseract/wiki)
 
 ##Instruction
 
@@ -11,6 +12,5 @@ pytesseract
 >Copy its path where Tesseract-OCR/tesseract.exe is present(program files).
 >paste it in the self.path.
 
-###run the application
+### Run the application
 Provide your image path and you will get the text.
-
