@@ -14,5 +14,3 @@ class OCR:
         except Exception as e:
             print(e)
             return "Error"
-
-
