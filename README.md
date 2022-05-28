@@ -1,7 +1,9 @@
 # ImagetoText
 This application creates a telegram bot that can extract text from images within seconds:
 
-#Requirements:
+## TELEGRAM BOT USERNAME: @image2txtbot
+
+# Requirements:
 Python3 
 Heroku 
 TelegramBot
